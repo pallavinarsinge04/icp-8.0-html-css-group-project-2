@@ -1,5 +1,6 @@
-<<<<<<< HEAD
-@import url('https://fonts.googleapis.com/css2?family=Bilbo+Swash+Caps&family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');body {
+
+@import url('https://fonts.googleapis.com/css2?family=Bilbo+Swash+Caps&family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+body {
     font-family: Arial, sans-serif;
     background-color: #f4f4f4;
     display: flex;
@@ -73,85 +74,4 @@ button:hover {
     width: 170px;
     border-radius: 12px;
     color: rgb(244, 248, 243);
-}
-p{
-    justify-content: center;
-=======
-@import url('https://fonts.googleapis.com/css2?family=Bilbo+Swash+Caps&family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');body {
-    font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    margin-left: 100px;
-    padding: 20px;
-    flex-wrap: wrap;
-   
-}
-
-.cards-container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 20px;
-}
-
-.card {
-    background-color: #fff;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px 0 #006622;
-    max-width: 650px;
-    height: 850px;
-    text-align: center;
-    font-family: arial;
-    font-family: "Comic Neue";
-}
-
-.card img {
-    border-radius: 10px 10px 0 0;
-    width: 100%;
-    height: 200px;
-    object-fit: cover;
-}
-
-.container {
-    padding: 16px;
-}
-
-.title {
-    color: rgb(43, 110, 25);
-    font-size: 25px;
-}
-h2{
-    color: rgb(43, 110, 25);
-}
-p{
-    color: #121312;
-}
-button {
-    border: none;
-    outline: 0;
-    display: inline-block;
-    padding: 5px 3px;
-    text-align: center;
-    cursor: pointer;
-    width: 150px;
-    font-size: 18px;
-    border-radius: 8px;
-    background-color: #54a654;
-    color: rgb(244, 248, 243);
-    border: 1px rgb(43, 110, 25) solid;
-}
-
-button:hover {
-    background-color: #70b370;
-    color: rgb(43, 110, 25);
-    width: 170px;
-    border-radius: 12px;
-    color: rgb(244, 248, 243);
-}
-p{
-    justify-content: center;
->>>>>>> 6e1bb59a6f33121f27d2ba44cab1410fa9f2ff52
 }
