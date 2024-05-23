@@ -10,41 +10,31 @@ h1
 {
   text-align: center;
 }
-     @media screen and (min-width: 600px) and (max-width: 768px) {
-      .card
-        {
-          justify-content: start;
-         
-        }
-       
-      }
 
-      /* Tablet Devices */
+.card img
+{
+  width: 100px;
+  height: auto;
+}
+.parent -container h2
+{
+  padding: 16px;
+  font-size: 28px;
+  margin-bottom: 8px;
 
-      @media screen and (min-width: 769px) and (max-width: 992px) {
-        .card
-        {
-          justify-content: start;
-    
-         
-        }
-        
-        
-      }
+}
+.parent -container  p
+{
+   color:#666;
+   font-size: 15px;
+   line-height: 1.3;
+}
+.parent -container  placeholder
+{
+  width: 10px;
+   height: auto;
+}
 
-      /* Dekstop device */
-
-      @media screen and (min-width: 993px) and (max-width: 1200px) {
-        .card
-        {
-          justify-content: start;
-          margin-left: 100px;
-      margin-top: 50px;
-      
-        }
-        
-      }
-   
       .parent -container
     {  
       display: flex;
@@ -79,13 +69,7 @@ h1
      
     }
    
-    img
-    {
-        height: 200px;
-        width: 300px;
-        
-        
-    }
+   
     .placeholder
 {
    width: 30px;
@@ -105,4 +89,10 @@ button{
 {
   width: 70px;
   height: 50px;
+}
+
+img
+{
+  width: 500px;
+  height: 300px;
 }
