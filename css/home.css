@@ -316,4 +316,71 @@
    margin-bottom: 20px;
    
 }
+.box1{
+   height: 240px;
+   width: 100%;
+   background-color: #1a3300;
+   position: relative;
+   margin-top: 100px;
+ }
+ .intro-text{
+   color: beige;
+   font-size: 20px;
+   margin-top:30px ;
+   position: absolute;
+   font-family:"Crete Round", serif ;
+   float: center;
+   text-align:center;
+   padding: 10px;
+}
+.line1{
+   width: 100%;
+   background-color: beige;
+   height: 5px;
+}
+.line2{
+   width: 100%;
+   background-color: beige;
+   height: 5px;
+}
+.box5{
+   height: 340px;
+   width: 100%;
+   background-color: #1a3300;
+   position: relative;
+   margin-top: 100px;
+ }
+ .about-text{
+   color: beige;
+   font-size: 20px;
+   margin-top:15px ;
+   position: absolute;
+   font-family:"Crete Round", serif ;
+   float: center;
+   text-align:center;
+   padding: 10px;
+}
+.heading3{
+   font-size: 70px;
+      font-family:"Crete Round", serif ;
+      color: beige;
+      margin-top: 80px;
+      margin-left: 570px;
+      position:relative;
+
+ }
+ .about-btn{
+   background-color:#aaff00;
+   color: #1a3300;
+   border:3px solid #001a00;
+   border-radius: 50px;
+   position: absolute;
+   margin-top: 130px;
+   margin-left: 620px;
+   height: 40px;
+   width:240px ;
+   font-size: 15px;
+   padding: 3px;
+ }
+ 
 
