@@ -3,7 +3,7 @@ body
 {
   background-color: #ccffff;
   justify-content: center;
-  align-items: center;
+  
   flex: wrap;
 }
 h1
@@ -49,24 +49,33 @@ h1
     {  
       display: flex;
         flex-direction: row;
-        align-items: start;
-      
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+        padding: 20px;
+        display: flex;
+    flex-direction: row;
+    justify-content: space-between;
     }
    
 
     .card {
-      height: 550px;
+      height: 800px;
       margin: 10px;
       padding-top: 40px;
       border-radius: 10px;
       display: inline-block;
-      justify-content: center;
+      justify-content: space-between;
     align-items: center;
       width: 400px;
       text-align: center;
       background-color: white;
       border: 2px solid green;
       box-shadow: 0 4px 8px 0 #006622;
+   
+    width: calc(33% - 40px);
+    margin: 10px;
+    
      
     }
    
