@@ -235,3 +235,30 @@
 
 
 
+/* Larger Desktops (1201px and up) */
+@media screen and (min-width: 1201px) {
+    .container {
+        margin: 100px 200px;
+    }
+    .heading {
+        margin-top: 120px;
+        padding: 2px 30px;
+    }
+    .content-heading {
+        margin-top: 180px;
+    }
+    .content {
+        font-size: 22px;
+    }
+    .vision-mission {
+        flex-direction: row;
+    }
+    .vision-mission-cards {
+        width: 40%;
+        margin-bottom: 30px;
+    }
+    .ourteam-card {
+        width: 250px;
+        margin-top: 180px;
+    }
+}
