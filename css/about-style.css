@@ -107,6 +107,19 @@
 
 
 
+.form {
+    background-image: url("./../images/home-images/background-image.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+
+    padding: 20px;
+    color: white;
+
+}
+
+
+
 
 
 /* Media queries */
@@ -116,23 +129,29 @@
     .container {
         margin: 20px;
     }
+
     .heading {
         margin-top: 50px;
         padding: 5px 10px;
     }
+
     .content-heading {
         margin-top: 100px;
     }
+
     .content {
         font-size: 18px;
     }
+
     .vision-mission {
         flex-direction: column;
     }
+
     .vision-mission-cards {
         width: 100%;
         margin-bottom: 20px;
     }
+
     .ourteam-card {
         width: 90%;
         margin-top: 20px;
@@ -147,23 +166,29 @@
     .container {
         margin: 40px;
     }
+
     .heading {
         margin-top: 75px;
         padding: 5px 15px;
     }
+
     .content-heading {
         margin-top: 125px;
     }
+
     .content {
         font-size: 18px;
     }
+
     .vision-mission {
         flex-direction: column;
     }
+
     .vision-mission-cards {
         width: 80%;
         margin-bottom: 20px;
     }
+
     .ourteam-card {
         width: 45%;
         margin-top: 50px;
@@ -178,23 +203,29 @@
     .container {
         margin: 60px;
     }
+
     .heading {
         margin-top: 90px;
         padding: 5px 20px;
     }
+
     .content-heading {
         margin-top: 140px;
     }
+
     .content {
         font-size: 18px;
     }
+
     .vision-mission {
         flex-direction: row;
     }
+
     .vision-mission-cards {
         width: 40%;
         margin-bottom: 30px;
     }
+
     .ourteam-card {
         width: 225px;
         margin-top: 150px;
@@ -209,23 +240,29 @@
     .container {
         margin: 80px;
     }
+
     .heading {
         margin-top: 100px;
         padding: 2px 20px;
     }
+
     .content-heading {
         margin-top: 150px;
     }
+
     .content {
         font-size: 20px;
     }
+
     .vision-mission {
         flex-direction: row;
     }
+
     .vision-mission-cards {
         width: 40%;
         margin-bottom: 30px;
     }
+
     .ourteam-card {
         width: 225px;
         margin-top: 150px;
@@ -240,23 +277,29 @@
     .container {
         margin: 100px 200px;
     }
+
     .heading {
         margin-top: 120px;
         padding: 2px 30px;
     }
+
     .content-heading {
         margin-top: 180px;
     }
+
     .content {
         font-size: 22px;
     }
+
     .vision-mission {
         flex-direction: row;
     }
+
     .vision-mission-cards {
         width: 40%;
         margin-bottom: 30px;
     }
+
     .ourteam-card {
         width: 250px;
         margin-top: 180px;
