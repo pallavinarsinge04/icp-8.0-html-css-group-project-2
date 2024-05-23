@@ -1,7 +1,10 @@
 
 body
 {
-  background-color: #F8F6E3;
+  background-color: #ccffff;
+  justify-content: center;
+  align-items: center;
+  flex: wrap;
 }
      @media screen and (min-width: 600px) and (max-width: 768px) {
       .card
@@ -37,26 +40,30 @@ body
         }
         
       }
-    .parent -container
-    {
-      flex: wrap;
-      align-items: center;
+   
+      .parent -container
+    {  
+      display: flex;
+        flex-direction: row;
+        align-items: start;
       
     }
    
 
     .card {
-      height: 500px;
+      height: 550px;
       margin: 10px;
       padding-top: 40px;
       border-radius: 10px;
       display: inline-block;
+      justify-content: center;
+    align-items: center;
       width: 400px;
       text-align: center;
-      background-color: #E0FBE2;
+      background-color: white;
       border: 2px solid green;
       box-shadow: 0 4px 8px 0 #006622;
-      align-items: center;
+     
     }
    
     img
@@ -73,6 +80,12 @@ body
 }
 p{
   color: green;
+}
+button{
+  background-color:#E0FBE2 ;
+  width: 150px;
+  height: 40px;
+  border-radius: 10px;
 }
     
 
