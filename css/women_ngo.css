@@ -1,0 +1,131 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ccffff;
+}
+
+header {
+    text-align: center;
+    font-size: 2.5em;
+    margin: 20px 0;
+}
+
+.cards-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    width: calc(33% - 40px);
+    margin: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+.card img {
+    width: 100%;
+    border-bottom: 1px solid #ddd;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+.container {
+    flex-grow: 1;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.container h2.title {
+    font-size: 1.5em;
+    margin: 10px 0;
+    text-align: center;
+}
+
+.container p {
+    margin: 10px 0;
+}
+
+.container iframe {
+    width: 100%;
+    height: 200px;
+    border: none;
+    border-radius: 8px;
+}
+
+button {
+    background-color: #e91e63;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    align-self: flex-start;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+button:hover {
+    background-color: #d81b60;
+}
+
+.back-button {
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+}
+
+.back-button img {
+    height: 50px;
+}
+
+
+@media (max-width: 1200px) {
+    .card {
+        width: calc(50% - 40px); 
+    }
+}
+
+@media (max-width: 768px) {
+    header {
+        font-size: 2em; 
+    }
+
+    .card {
+        width: calc(100% - 40px); 
+    }
+
+    .container iframe {
+        height: 150px; 
+    }
+}
+
+@media (max-width: 480px) {
+    header {
+        font-size: 1.5em; 
+    }
+
+    .card {
+        width: calc(100% - 20px); 
+        margin: 10px 10px; 
+    }
+
+    .container iframe {
+        height: 120px; 
+    }
+
+    button {
+        padding: 8px 12px; 
+    }
+}
+
