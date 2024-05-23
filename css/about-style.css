@@ -95,13 +95,50 @@
     color: black;
 }
 
-.thank-you{
+.thank-you {
     width: 100%;
 }
 
-.back-btn{
-    margin-top: 50px;
-    position: sticky;
-    left: 5px;
-
+.back-btn {
+    position: fixed;
+    left: 20px;
+    bottom: 20px;
 }
+
+
+
+
+
+/* Media queries */
+
+/* Small devices (phones, less than 600px) */
+@media screen and (max-width: 599px) {
+    .container {
+        margin: 20px;
+    }
+    .heading {
+        margin-top: 50px;
+        padding: 5px 10px;
+    }
+    .content-heading {
+        margin-top: 100px;
+    }
+    .content {
+        font-size: 18px;
+    }
+    .vision-mission {
+        flex-direction: column;
+    }
+    .vision-mission-cards {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .ourteam-card {
+        width: 90%;
+        margin-top: 20px;
+    }
+}
+
+
+
+
