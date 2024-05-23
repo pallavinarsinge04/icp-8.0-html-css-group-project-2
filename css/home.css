@@ -4,10 +4,7 @@
    padding: 0;
    box-sizing: border-box;
    }
-    
-    
-     
-     .heading{
+    .heading{
          font-size:50px;
          font-family: "Crete Round", serif;
          color: beige;
@@ -157,4 +154,85 @@
    width:140px ;
    font-size: 15px;
    padding: 3px;
+}
+
+.box3{
+   height: 600px;
+   width: 100%;
+   background-color: #1a3300;
+   position: relative;
+   margin-top: 100px;
+ }
+ .subheading2{
+   color: beige;
+   font-size: 40px;
+   margin-top: 20px;
+   font-family: "Crete Round", serif;
+   margin-left:50px ;
+   padding:10px ;
+   letter-spacing: 1px;
+ }
+ .oldagehome-text1{
+   color: beige;
+   font-size: 20px;
+   margin-top:15px ;
+   position: absolute;
+   font-family:"Crete Round", serif ;
+   float: left;
+   text-align: left;
+   margin-right: 800px;
+   margin-left: 50px;
+   padding: 10px;
+}
+.oldagehome-text2{
+ color: #aaff00;
+ padding: 10px;
+ 
+}
+.oldagehome-text3{
+   color: #aaff00;
+   font-size: 20px;
+   margin-top: 310px;
+   font-family:"Crete Round", serif ;
+   float: left;
+   margin-right: 800px;
+   margin-left: 50px;
+   position: absolute;
+   padding: 10px;
+}
+.search-btn2{
+   background-color:#aaff00;
+   color:#1a3300;
+   border:3px solid #001a00;
+   border-radius: 50px;
+   position: absolute;
+   margin-top: 430px;
+   display: inline;
+   margin-left: 230px;
+   height: 40px;
+   width:140px ;
+   font-size: 15px;
+   padding: 3px;
+}
+.donate-btn2{
+   background-color:#aaff00;
+   color: #1a3300;
+   border:3px solid #001a00;
+   border-radius: 50px;
+   position: absolute;
+   margin-top: 430px;
+   margin-left: 430px;
+   height: 40px;
+   width:140px ;
+   font-size: 15px;
+   padding: 3px;
+}
+.oldagehome-img{
+   margin-left: 760px;
+   margin-right:60px ;
+   margin-top: 50px;
+   top:0;
+   position: absolute;
+   margin-bottom: 20px;
+   
 }
