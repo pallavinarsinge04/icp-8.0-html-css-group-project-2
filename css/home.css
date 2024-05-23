@@ -383,7 +383,7 @@
    padding: 3px;
  }
  .box6{
-   height: 940px;
+   height: 1010px;
    width: 100%;
    background-color: #1a3300;
    position: relative;
@@ -420,8 +420,8 @@
 
 }
 .ourteam-card {
-   width: 225px;
-   height: 200px;
+   width: 240px;
+   height: 240px;
    margin-top: 150px;
    border: 1px solid #aaff00;
    border-radius: 20px;
@@ -431,11 +431,11 @@
 
 .ourteam-image {
    border-radius: 50px;
-   position: relative;
    left: 65px;
    top: -50px;
    border-color: #aaff00;
    border-style: solid;
+   position: relative;
 
 }
 
@@ -444,5 +444,206 @@
    color:beige;
    font-family:"Crete Round", serif  ;
 }
- 
+.card1-btn{
+   background-color:#aaff00;
+   color:#1a3300;
+   border:3px solid #001a00;
+   border-radius: 50px;
+   position: absolute;
+   margin-top: 30px;
+   display: inline;
+   margin-left: 50px;
+   height: 40px;
+   width:140px ;
+   font-size: 15px;
+   padding: 3px;
+}
 
+.card2-btn{
+   background-color:#aaff00;
+   color:#1a3300;
+   border:3px solid #001a00;
+   border-radius: 50px;
+   position: absolute;
+   margin-top: 30px;
+   display: inline;
+   margin-left: 50px;
+   height: 40px;
+   width:140px ;
+   font-size: 15px;
+   padding: 3px;
+}
+
+
+.card3-btn{
+   background-color:#aaff00;
+   color:#1a3300;
+   border:3px solid #001a00;
+   border-radius: 50px;
+   position: absolute;
+   margin-top: 30px;
+   display: inline;
+   margin-left: 50px;
+   height: 40px;
+   width:140px ;
+   font-size: 15px;
+   padding: 3px;
+}
+
+.card4-btn{
+   background-color:#aaff00;
+   color:#1a3300;
+   border:3px solid #001a00;
+   border-radius: 50px;
+   position: absolute;
+   margin-top: 30px;
+   display: inline;
+   margin-left: 50px;
+   height: 40px;
+   width:140px ;
+   font-size: 15px;
+   padding: 3px;
+}
+
+.card5-btn{
+   background-color:#aaff00;
+   color:#1a3300;
+   border:3px solid #001a00;
+   border-radius: 50px;
+   position: absolute;
+   margin-top: 30px;
+   display: inline;
+   margin-left: 50px;
+   height: 40px;
+   width:140px ;
+   font-size: 15px;
+   padding: 3px;
+}
+.card6-btn{
+   background-color:#aaff00;
+   color:#1a3300;
+   border:3px solid #001a00;
+   border-radius: 50px;
+   position: absolute;
+   margin-top: 30px;
+   display: inline;
+   margin-left: 50px;
+   height: 40px;
+   width:140px ;
+   font-size: 15px;
+   padding: 3px;
+}
+.card7-btn{
+   background-color:#aaff00;
+   color:#1a3300;
+   border:3px solid #001a00;
+   border-radius: 50px;
+   position: absolute;
+   margin-top: 30px;
+   display: inline;
+   margin-left: 50px;
+   height: 40px;
+   width:140px ;
+   font-size: 15px;
+   padding: 3px;
+}
+.card8-btn{
+   background-color:#aaff00;
+   color:#1a3300;
+   border:3px solid #001a00;
+   border-radius: 50px;
+   position: absolute;
+   margin-top: 30px;
+   display: inline;
+   margin-left: 50px;
+   height: 40px;
+   width:140px ;
+   font-size: 15px;
+   padding: 3px;
+}
+
+.box7{
+   height: 440px;
+   width: 100%;
+   background-color: #1a3300;
+   position: relative;
+   margin-top: 100px;
+}
+
+.heading5{
+   font-size: 20px;
+   color: beige;
+   margin-left: 50px;
+   font-family:"Crete Round", serif  ;
+   margin-top: 80px;
+   position: absolute;
+}
+.aboutus-text{
+   color: beige;
+   font-size: 15px;
+   margin-top:120px ;
+   position: absolute;
+   font-family:"Crete Round", serif ;
+   float: left;
+   text-align: left;
+   margin-right: 1050px;
+   margin-left: 40px;
+   padding: 10px;
+}
+.heading6{
+   font-size: 20px;
+   color: beige;
+   margin-left: 50px;
+   font-family:"Crete Round", serif  ;
+   margin-top: 80px;
+   position: absolute;
+   margin-left: 680px;
+}
+.ourservices-text{
+   color: beige;
+   font-size: 17px;
+   margin-top:120px ;
+   position: absolute;
+   font-family:"Crete Round", serif ;
+   float: left;
+   text-align: left;
+   margin-right: 650px;
+   margin-left: 671px;
+   padding: 10px;
+}
+.heading7{
+   font-size: 20px;
+   color: beige;
+   margin-left: 50px;
+   font-family:"Crete Round", serif  ;
+   margin-top: 80px;
+   position: absolute;
+   margin-left: 1080px;
+}
+.address{
+   color: beige;
+   font-size: 17px;
+   margin-top:120px ;
+   position: absolute;
+   font-family:"Crete Round", serif ;
+   float: left;
+   text-align: left;
+   margin-left: 1071px;
+   padding: 10px;
+}
+.insta-icon{
+   color: beige;
+   height:50px;
+   margin-top:210px ;
+   margin-left: 1071px;
+   display:inline-flex;
+  
+}
+.face-icon{
+   height: 50px;
+   margin-left: 10px;
+}
+.twitter-icon{
+   height: 52px;
+   margin-left: 10px;
+}
