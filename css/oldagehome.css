@@ -1,0 +1,67 @@
+body {
+    background-color: #ccffff;
+
+  }
+
+
+
+
+.heighlight {
+display: flex;
+flex-wrap: wrap;
+justify-content: space-around;
+padding: 20px;
+}
+
+.card {
+width: 300px;
+background-color: #f9f9f9;
+border-radius: 10px;
+box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+margin-bottom: 20px;
+}
+
+.container {
+padding: 20px;
+}
+
+.title {
+font-size: 26px;
+color: black;
+background-color:yellow ;
+}
+
+img {
+width: 250px;
+border-radius: 10px 10px 0 0;
+}
+.map { 
+width: 250px;
+border-radius: 10px 10px 0 0;
+
+}
+h2 {
+margin-top: 20px;
+font-size: 18px;
+color:black;
+}
+
+p {
+font-size: 16px;
+color: #666;
+}
+
+button {
+padding: 10px 20px;
+background-color: lightblue;
+color: black;
+border: none;
+border-radius: 5px;
+cursor: pointer;
+transition: background-color 0.3s;
+
+}
+
+button:hover {
+background-color: #45a049;
+}
