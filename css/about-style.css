@@ -204,3 +204,34 @@
 
 
 
+/* Desktop Devices (993px to 1200px) */
+@media screen and (min-width: 993px) and (max-width: 1200px) {
+    .container {
+        margin: 80px;
+    }
+    .heading {
+        margin-top: 100px;
+        padding: 2px 20px;
+    }
+    .content-heading {
+        margin-top: 150px;
+    }
+    .content {
+        font-size: 20px;
+    }
+    .vision-mission {
+        flex-direction: row;
+    }
+    .vision-mission-cards {
+        width: 40%;
+        margin-bottom: 30px;
+    }
+    .ourteam-card {
+        width: 225px;
+        margin-top: 150px;
+    }
+}
+
+
+
+
