@@ -94,3 +94,14 @@
     text-align: center;
     color: black;
 }
+
+.thank-you{
+    width: 100%;
+}
+
+.back-btn{
+    margin-top: 50px;
+    position: sticky;
+    left: 5px;
+
+}
