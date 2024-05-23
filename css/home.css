@@ -131,3 +131,30 @@
             margin-bottom: 20px;
             
 }
+.search-btn1{
+   background-color:#aaff00;
+   color:#1a3300;
+   border:3px solid #001a00;
+   border-radius: 50px;
+   position: absolute;
+   margin-top: 430px;
+   display: inline;
+   margin-left: 230px;
+   height: 40px;
+   width:140px ;
+   font-size: 15px;
+   padding: 3px;
+}
+.donate-btn1{
+   background-color:#aaff00;
+   color: #1a3300;
+   border:3px solid #001a00;
+   border-radius: 50px;
+   position: absolute;
+   margin-top: 430px;
+   margin-left: 430px;
+   height: 40px;
+   width:140px ;
+   font-size: 15px;
+   padding: 3px;
+}
