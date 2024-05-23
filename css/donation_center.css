@@ -1,7 +1,14 @@
 
 body
 {
-  background-color: #F8F6E3;
+  background-color: #ccffff;
+  justify-content: center;
+  
+  flex: wrap;
+}
+h1
+{
+  text-align: center;
 }
      @media screen and (min-width: 600px) and (max-width: 768px) {
       .card
@@ -37,26 +44,39 @@ body
         }
         
       }
-    .parent -container
-    {
-      flex: wrap;
-      align-items: center;
-      
+   
+      .parent -container
+    {  
+      display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+        padding: 20px;
+        display: flex;
+    flex-direction: row;
+    justify-content: space-between;
     }
    
 
     .card {
-      height: 500px;
+      height: 800px;
       margin: 10px;
       padding-top: 40px;
       border-radius: 10px;
       display: inline-block;
+      justify-content: space-between;
+    align-items: center;
       width: 400px;
       text-align: center;
-      background-color: #E0FBE2;
+      background-color: white;
       border: 2px solid green;
       box-shadow: 0 4px 8px 0 #006622;
-      align-items: center;
+   
+    width: calc(33% - 40px);
+    margin: 10px;
+    
+     
     }
    
     img
@@ -73,6 +93,12 @@ body
 }
 p{
   color: green;
+}
+button{
+  background-color:#E0FBE2 ;
+  width: 150px;
+  height: 40px;
+  border-radius: 10px;
 }
     
 
