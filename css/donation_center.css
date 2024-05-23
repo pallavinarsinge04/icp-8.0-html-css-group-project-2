@@ -11,11 +11,7 @@ h1
   text-align: center;
 }
 
-.card img
-{
-  width: 100px;
-  height: auto;
-}
+
 .parent -container h2
 {
   padding: 16px;
@@ -93,6 +89,6 @@ button{
 
 img
 {
-  width: 500px;
-  height: 300px;
+  width: 350px;
+  height: 200px;
 }
