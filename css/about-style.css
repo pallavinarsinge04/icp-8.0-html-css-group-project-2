@@ -142,3 +142,34 @@
 
 
 
+/* Tablet Devices (600px to 768px) */
+@media screen and (min-width: 600px) and (max-width: 768px) {
+    .container {
+        margin: 40px;
+    }
+    .heading {
+        margin-top: 75px;
+        padding: 5px 15px;
+    }
+    .content-heading {
+        margin-top: 125px;
+    }
+    .content {
+        font-size: 18px;
+    }
+    .vision-mission {
+        flex-direction: column;
+    }
+    .vision-mission-cards {
+        width: 80%;
+        margin-bottom: 20px;
+    }
+    .ourteam-card {
+        width: 45%;
+        margin-top: 50px;
+    }
+}
+
+
+
+
