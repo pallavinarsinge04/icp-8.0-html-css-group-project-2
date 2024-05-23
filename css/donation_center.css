@@ -1,0 +1,78 @@
+
+body
+{
+  background-color: #F8F6E3;
+}
+     @media screen and (min-width: 600px) and (max-width: 768px) {
+      .card
+        {
+          justify-content: start;
+         
+        }
+       
+      }
+
+      /* Tablet Devices */
+
+      @media screen and (min-width: 769px) and (max-width: 992px) {
+        .card
+        {
+          justify-content: start;
+    
+         
+        }
+        
+        
+      }
+
+      /* Dekstop device */
+
+      @media screen and (min-width: 993px) and (max-width: 1200px) {
+        .card
+        {
+          justify-content: start;
+          margin-left: 100px;
+      margin-top: 50px;
+      
+        }
+        
+      }
+    .parent -container
+    {
+      flex: wrap;
+      align-items: center;
+      
+    }
+   
+
+    .card {
+      height: 500px;
+      margin: 10px;
+      padding-top: 40px;
+      border-radius: 10px;
+      display: inline-block;
+      width: 400px;
+      text-align: center;
+      background-color: #E0FBE2;
+      border: 2px solid green;
+      box-shadow: 0 4px 8px 0 #006622;
+      align-items: center;
+    }
+   
+    img
+    {
+        height: 200px;
+        width: 300px;
+        
+        
+    }
+    .placeholder
+{
+   width: 30px;
+   height: 20px;
+}
+p{
+  color: green;
+}
+    
+

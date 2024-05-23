@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&family=Cinzel:wght@400..900&family=Crete+Round:ital@0;1&family=DM+Serif+Display:ital@0;1&family=Dancing+Script:wght@400..700&family=El+Messiri:wght@400..700&family=Jacquard+24+Charted&family=Sedan+SC&family=Teko:wght@300..700&display=swap');
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   }
+    
+    
+     
+     .heading{
+         font-size:50px;
+         font-family: "Crete Round", serif;
+         color: beige;
+        position: absolute;
+        margin-left: 585px;
+     }
+     .logo-img{
+        border-radius: 100px;
+        background-color: #bfff80;
+        padding: 5px;
+        margin-left: 497px;
+
+        
+     }
+     .box{
+         height: 120px;
+         width: 100%;
+         background-color: #1a3300;
+         display: flex;
+         justify-content: space-between;
+         align-items: center;
+         padding: 50px;
+        }
+
+    .img1{
+       position:relative;
+       height: 990px;
+       width: 1660px;
+        
+     }
+
+     .text{
+        font-size: 60px;
+        position: absolute;
+        top:0;
+        margin-top: 200px;
+        font-family: "Crete Round", serif;
+        color:beige;
+        margin-left: 30px;
+    }
+    .text2{
+        font-size: 60px;
+        position: absolute;
+        top:0;
+        margin-top: 300px;
+        font-family:"Crete Round", serif ;
+        color: beige;
+        margin-left: 30px;
+    }
+    .text3{
+        font-size: 60px;
+        position: absolute;
+        top:0;
+        margin-top: 400px;
+        font-family: "Crete Round", serif;
+        color: beige;
+        margin-left: 30px;
+    }
+    .color{
+       color: #aaff00;
+    }
+     
+    .heading2{
+      font-size: 70px;
+      font-family:"Crete Round", serif ;
+      color: beige;
+      margin-top: 80px;
+      margin-left: 540px;
+      position:relative;
+
+    }
+
+ .box2{
+   height: 600px;
+   width: 100%;
+   background-color: #1a3300;
+   position: relative;
+ }
+.subheading1{
+   color: beige;
+   font-size: 40px;
+   margin-top: 20px;
+   font-family: "Crete Round", serif;
+   margin-left:50px ;
+   padding:10px ;
+}
+.adoption-text1{
+     color: beige;
+     font-size: 20px;
+     margin-top:15px ;
+     position: absolute;
+     font-family:"Crete Round", serif ;
+     float: left;
+     text-align: left;
+     margin-right: 800px;
+     margin-left: 50px;
+     padding: 10px;
+}
+.adoption-text2{
+   color: #aaff00;
+   padding: 10px;
+   
+}
+.adoption-text3{
+   color: #aaff00;
+   font-size: 20px;
+   margin-top: 330px;
+   font-family:"Crete Round", serif ;
+   float: left;
+   margin-right: 800px;
+   margin-left: 50px;
+   position: absolute;
+   padding: 10px;
+}
+.adoption-img{
+            margin-left: 760px;
+            margin-right:60px ;
+            margin-top: 50px;
+            top:0;
+            position: absolute;
+            margin-bottom: 20px;
+            
+}
