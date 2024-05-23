@@ -32,7 +32,7 @@
     .img1{
        position:relative;
        height: 990px;
-       width: 1660px;
+       width: 1550px;
         
      }
 
@@ -40,7 +40,7 @@
         font-size: 60px;
         position: absolute;
         top:0;
-        margin-top: 200px;
+        margin-top: 300px;
         font-family: "Crete Round", serif;
         color:beige;
         margin-left: 30px;
@@ -49,7 +49,7 @@
         font-size: 60px;
         position: absolute;
         top:0;
-        margin-top: 300px;
+        margin-top: 400px;
         font-family:"Crete Round", serif ;
         color: beige;
         margin-left: 30px;
@@ -58,7 +58,7 @@
         font-size: 60px;
         position: absolute;
         top:0;
-        margin-top: 400px;
+        margin-top: 500px;
         font-family: "Crete Round", serif;
         color: beige;
         margin-left: 30px;
@@ -382,5 +382,268 @@
    font-size: 15px;
    padding: 3px;
  }
- 
+ .box6{
+   height: 1010px;
+   width: 100%;
+   background-color: #1a3300;
+   position: relative;
+   margin-top: 100px;
+ }
+ .contact-text{
+   color: beige;
+   font-size: 20px;
+   margin-top:15px ;
+   position: absolute;
+   font-family:"Crete Round", serif ;
+   float: center;
+   text-align:center;
+   padding: 10px;
+}
+.heading4{
+   font-size: 70px;
+      font-family:"Crete Round", serif ;
+      color: beige;
+      margin-top: 80px;
+      margin-left: 570px;
+      position:relative;
 
+ }
+ .ourteam-cards-container {
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   flex-wrap: wrap;
+   margin-top: 50px;
+   margin-left: 200px;
+   margin-right: 200px;
+   padding: 50px;
+
+}
+.ourteam-card {
+   width: 240px;
+   height: 240px;
+   margin-top: 150px;
+   border: 1px solid #aaff00;
+   border-radius: 20px;
+   background-color: #001a00;
+   box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+
+.ourteam-image {
+   border-radius: 50px;
+   left: 65px;
+   top: -50px;
+   border-color: #aaff00;
+   border-style: solid;
+   position: relative;
+
+}
+
+.ourteam-members-name {
+   text-align: center;
+   color:beige;
+   font-family:"Crete Round", serif  ;
+}
+.card1-btn{
+   background-color:#aaff00;
+   color:#1a3300;
+   border:3px solid #001a00;
+   border-radius: 50px;
+   position: absolute;
+   margin-top: 30px;
+   display: inline;
+   margin-left: 50px;
+   height: 40px;
+   width:140px ;
+   font-size: 15px;
+   padding: 3px;
+}
+
+.card2-btn{
+   background-color:#aaff00;
+   color:#1a3300;
+   border:3px solid #001a00;
+   border-radius: 50px;
+   position: absolute;
+   margin-top: 30px;
+   display: inline;
+   margin-left: 50px;
+   height: 40px;
+   width:140px ;
+   font-size: 15px;
+   padding: 3px;
+}
+
+
+.card3-btn{
+   background-color:#aaff00;
+   color:#1a3300;
+   border:3px solid #001a00;
+   border-radius: 50px;
+   position: absolute;
+   margin-top: 30px;
+   display: inline;
+   margin-left: 50px;
+   height: 40px;
+   width:140px ;
+   font-size: 15px;
+   padding: 3px;
+}
+
+.card4-btn{
+   background-color:#aaff00;
+   color:#1a3300;
+   border:3px solid #001a00;
+   border-radius: 50px;
+   position: absolute;
+   margin-top: 30px;
+   display: inline;
+   margin-left: 50px;
+   height: 40px;
+   width:140px ;
+   font-size: 15px;
+   padding: 3px;
+}
+
+.card5-btn{
+   background-color:#aaff00;
+   color:#1a3300;
+   border:3px solid #001a00;
+   border-radius: 50px;
+   position: absolute;
+   margin-top: 30px;
+   display: inline;
+   margin-left: 50px;
+   height: 40px;
+   width:140px ;
+   font-size: 15px;
+   padding: 3px;
+}
+.card6-btn{
+   background-color:#aaff00;
+   color:#1a3300;
+   border:3px solid #001a00;
+   border-radius: 50px;
+   position: absolute;
+   margin-top: 30px;
+   display: inline;
+   margin-left: 50px;
+   height: 40px;
+   width:140px ;
+   font-size: 15px;
+   padding: 3px;
+}
+.card7-btn{
+   background-color:#aaff00;
+   color:#1a3300;
+   border:3px solid #001a00;
+   border-radius: 50px;
+   position: absolute;
+   margin-top: 30px;
+   display: inline;
+   margin-left: 50px;
+   height: 40px;
+   width:140px ;
+   font-size: 15px;
+   padding: 3px;
+}
+.card8-btn{
+   background-color:#aaff00;
+   color:#1a3300;
+   border:3px solid #001a00;
+   border-radius: 50px;
+   position: absolute;
+   margin-top: 30px;
+   display: inline;
+   margin-left: 50px;
+   height: 40px;
+   width:140px ;
+   font-size: 15px;
+   padding: 3px;
+}
+
+.box7{
+   height: 440px;
+   width: 100%;
+   background-color: #1a3300;
+   position: relative;
+   margin-top: 100px;
+}
+
+.heading5{
+   font-size: 20px;
+   color: beige;
+   margin-left: 50px;
+   font-family:"Crete Round", serif  ;
+   margin-top: 80px;
+   position: absolute;
+}
+.aboutus-text{
+   color: beige;
+   font-size: 15px;
+   margin-top:120px ;
+   position: absolute;
+   font-family:"Crete Round", serif ;
+   float: left;
+   text-align: left;
+   margin-right: 1050px;
+   margin-left: 40px;
+   padding: 10px;
+}
+.heading6{
+   font-size: 20px;
+   color: beige;
+   margin-left: 50px;
+   font-family:"Crete Round", serif  ;
+   margin-top: 80px;
+   position: absolute;
+   margin-left: 680px;
+}
+.ourservices-text{
+   color: beige;
+   font-size: 17px;
+   margin-top:120px ;
+   position: absolute;
+   font-family:"Crete Round", serif ;
+   float: left;
+   text-align: left;
+   margin-right: 650px;
+   margin-left: 671px;
+   padding: 10px;
+}
+.heading7{
+   font-size: 20px;
+   color: beige;
+   margin-left: 50px;
+   font-family:"Crete Round", serif  ;
+   margin-top: 80px;
+   position: absolute;
+   margin-left: 1080px;
+}
+.address{
+   color: beige;
+   font-size: 17px;
+   margin-top:120px ;
+   position: absolute;
+   font-family:"Crete Round", serif ;
+   float: left;
+   text-align: left;
+   margin-left: 1071px;
+   padding: 10px;
+}
+.insta-icon{
+   color: beige;
+   height:50px;
+   margin-top:210px ;
+   margin-left: 1071px;
+   display:inline-flex;
+  
+}
+.face-icon{
+   height: 50px;
+   margin-left: 10px;
+}
+.twitter-icon{
+   height: 52px;
+   margin-left: 10px;
+}
