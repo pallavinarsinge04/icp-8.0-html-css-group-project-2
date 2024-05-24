@@ -160,7 +160,12 @@
 
     .ourteam-card {
         width: 90%;
-        margin-top: 20px;
+        margin-top: 70px;
+    }
+
+    .ourteam-image{
+        position: relative;
+        left: 110px;
     }
 }
 
