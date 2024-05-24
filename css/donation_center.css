@@ -60,7 +60,6 @@ p{
 button {
     border: none;
     outline: 0;
-    position: fixed;
     padding: 5px 3px;
     text-align: center;
     cursor: pointer;
