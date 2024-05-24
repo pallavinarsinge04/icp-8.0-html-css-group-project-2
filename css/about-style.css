@@ -73,6 +73,12 @@
 
 }
 
+
+.ourteam-cards-container :hover{
+    transform: scale(1.1);
+}
+
+
 .ourteam-card {
     width: 225px;
     height: 200px;
