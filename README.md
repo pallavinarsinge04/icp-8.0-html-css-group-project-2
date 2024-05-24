@@ -59,7 +59,7 @@ To set up the website locally, follow these steps:
     ```bash
     cd safehands
     ```
-3. Open `index.html` in your preferred web browser.
+3. Open [index.html](index.html) in your preferred web browser.
 
 ## Usage
 
