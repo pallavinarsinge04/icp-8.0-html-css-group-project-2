@@ -3,6 +3,7 @@
    margin: 0;
    padding: 0;
    box-sizing: border-box;
+
    }
     .heading{
          font-size:50px;
@@ -10,13 +11,14 @@
          color: beige;
         position: absolute;
         margin-left: 585px;
+      
      }
      .logo-img{
         border-radius: 100px;
         background-color: #bfff80;
         padding: 5px;
         margin-left: 497px;
-
+       
         
      }
      .box{
@@ -383,7 +385,7 @@
    padding: 3px;
  }
  .box6{
-   height: 1010px;
+   height: 1050px;
    width: 100%;
    background-color: #1a3300;
    position: relative;
@@ -408,12 +410,25 @@
       position:relative;
 
  }
+ .faq-btn{
+   background-color:#aaff00;
+   color: #1a3300;
+   border:3px solid #001a00;
+   border-radius: 50px;
+   position: absolute;
+   margin-top: 160px;
+   margin-left: 620px;
+   height: 40px;
+   width:240px ;
+   font-size: 15px;
+   padding: 3px;
+ }
  .ourteam-cards-container {
    display: flex;
    flex-direction: row;
    justify-content: space-between;
    flex-wrap: wrap;
-   margin-top: 50px;
+   margin-top: 90px;
    margin-left: 200px;
    margin-right: 200px;
    padding: 50px;
@@ -647,3 +662,467 @@
    height: 52px;
    margin-left: 10px;
 }
+
+
+/* Mobile devices (up to 768px) */
+@media (max-width: 768px) 
+{
+  .heading {
+      font-size: 30px;
+      margin-left: 100px;
+      transform: translateX(-50%);
+      margin-top:18px;
+      
+   }
+   .logo-img {
+      margin-left: 40px;
+      margin-right:335px ;
+      height: 40px;
+      margin-top: 18px;
+
+   }
+   .box {
+      padding: 20px;
+      flex-direction: column;
+      align-items: center;
+      width: 100%;
+   }
+   .img1 {
+      height: auto;
+      width: 600px
+      
+   }
+   .text{
+      font-size: 15px;
+      position: absolute;
+      top:0;
+      margin-top:200px;
+      font-family: "Crete Round", serif;
+      color:beige;
+      margin-left: 20px;
+   }
+   .text2{
+      font-size: 15px;
+      position: absolute;
+      top:0;
+      margin-top:220px;
+      font-family: "Crete Round", serif;
+      color:beige;
+      margin-left: 20px;
+   }
+   .text3{
+      font-size: 15px;
+      position: absolute;
+      top:0;
+      margin-top:240px;
+      font-family: "Crete Round", serif;
+      color:beige;
+      margin-left: 20px;
+   }
+
+   .heading2{
+      font-size: 28px;
+      margin-left: 50%;
+      transform: translateX(-50%);
+      text-align: center;
+      display: none;
+
+   }
+   .box2{
+      padding: 20px;
+      margin-top: 0px;
+      height: 650px;
+   
+     
+
+   }
+   .box1{
+      display: none;
+   }
+   .subheading1 {
+      font-size: 40px;
+      margin-left: 0;
+      text-align: center;
+      margin-right: 80px;
+      position: relative;
+      
+   }
+
+   .adoption-img {
+      margin-left: 50%;
+      transform: translateX(-50%);
+      display: none;
+   }
+   .adoption-text1{
+       
+         font-size: 18px; /* Slightly smaller font size for better fit on small screens */
+         margin-left: 10px;
+         margin-right: 95px; /* Add margin-right to ensure proper spacing */
+         padding: 10px;
+         max-width: calc(100% - 20px); /* Adjusts to the new margins */
+         text-align: center;
+     }
+   .adoption-text2{
+      color: #aaff00;
+      padding: 10px;
+      
+   }
+   .adoption-text3{
+      color: #aaff00;
+      font-size: 15px;
+      margin-top: 330px;
+      font-family:"Crete Round", serif ;
+      float: center;
+      position: absolute;
+      padding: 10px;
+      display: none;
+   }
+   .box5 {
+      height: auto; /* Allow the height to adjust based on content */
+      margin-top: 50px;
+      height: 500px; /* Reduce the top margin for smaller screens */
+  }
+   .intro-text{
+      display: none;
+   }
+
+   .search-btn1 {
+      background-color:#aaff00;
+      color:#1a3300;
+      border:3px solid #001a00;
+      border-radius: 50px;
+      position: absolute;
+      margin-top: 430px;
+      display: inline;
+      margin-left: 60px;
+      height: 40px;
+      width:140px ;
+      font-size: 15px;
+      padding: 3px;
+   }
+   .donate-btn1 {
+      background-color:#aaff00;
+      color:#1a3300;
+      border:3px solid #001a00;
+      border-radius: 50px;
+      position: absolute;
+      margin-top: 430px;
+      display: inline;
+      margin-left: 230px;
+      height: 40px;
+      width:140px ;
+      font-size: 15px;
+      padding: 3px;
+   }
+   .box3{
+      padding: 20px;
+      margin-top: 80px;
+      height: 650px;
+      position: relative;
+   /* Reduce the top margin for smaller screens */
+     }
+     .oldagehome-text1{
+      
+      font-size: 18px; /* Slightly smaller font size for better fit on small screens */
+      margin-left: 10px;
+      margin-right: 95px; /* Add margin-right to ensure proper spacing */
+      padding: 10px;
+      max-width: calc(100% - 20px); /* Adjusts to the new margins */
+      text-align: center;
+  }
+.oldagehome-text2{
+   color: #aaff00;
+   padding: 10px;
+   
+}
+.oldagehome-text3{
+   display: none;
+}
+.search-btn3{
+   background-color:#aaff00;
+      color:#1a3300;
+      border:3px solid #001a00;
+      border-radius: 50px;
+      position: absolute;
+      margin-top: 430px;
+      display: inline;
+      margin-left: 60px;
+      height: 40px;
+      width:140px ;
+      font-size: 15px;
+      padding: 3px;
+}
+.donate-btn2{
+   background-color:#aaff00;
+   color:#1a3300;
+   border:3px solid #001a00;
+   border-radius: 50px;
+   position: absolute;
+   margin-top: 430px;
+   display: inline;
+   margin-left: 230px;
+   height: 40px;
+   width:140px ;
+   font-size: 15px;
+   padding: 3px;
+}
+.box4{
+padding: 20px;
+margin-top: 80px;
+height: 650px;
+position: relative;
+}
+.womenngo-text1{
+   font-size: 18px; /* Slightly smaller font size for better fit on small screens */
+   margin-left: 10px;
+   margin-right: 95px; /* Add margin-right to ensure proper spacing */
+   padding: 10px;
+   max-width: calc(100% - 20px); /* Adjusts to the new margins */
+   text-align: center;
+}
+.womenngo-text3{
+   display: none;
+}
+.donate-btn3{
+   background-color:#aaff00;
+   color:#1a3300;
+   border:3px solid #001a00;
+   border-radius: 50px;
+   position: absolute;
+   margin-top: 430px;
+   display: inline;
+   margin-left: 230px;
+   height: 40px;
+   width:140px ;
+   font-size: 15px;
+   padding: 3px;
+}
+.heading3 {
+   font-size: 40px; /* Adjust font size for smaller screens */
+   margin-top: 40px; /* Reduce top margin */
+   margin-left: 20px; /* Reduce left margin */
+   text-align: center;
+   margin-right: 100px; /* Center text for smaller screens */
+}
+.line1{
+   display: none;
+}
+.line2{
+   display: none;
+}
+.about-btn {
+   margin-top: 250px; /* Adjust top margin for smaller screens */
+   margin-left: 160px; /* Reduce left margin */
+   height: 35px; /* Slightly smaller height */
+   width: 180px; /* Slightly smaller width */
+   font-size: 13px; /* Slightly smaller font size */
+   padding: 2px; /* Reduced padding */
+   position: relative; /* Change position to relative for better flow */
+
+}
+.about-text{
+   font-size: 18px; /* Slightly smaller font size for better fit on small screens */
+   margin-left: 10px;
+   margin-right: 95px; /* Add margin-right to ensure proper spacing */
+   padding: 10px;
+   max-width: calc(100% - 20px); /* Adjusts to the new margins */
+   text-align: center;
+}
+.box5{
+   height: 400px;
+}
+.box6{
+ height:3000px;
+ flex-wrap: wrap;
+ 
+}
+.box7{
+   display: none;
+
+}
+.faq-btn{
+   background-color:#aaff00;
+   color:#1a3300;
+   border:3px solid #001a00;
+   border-radius: 50px;
+   position: absolute;
+   margin-top: 320px;
+   display: inline;
+   margin-left: 150px;
+   height: 40px;
+   width:180px ;
+   font-size: 15px;
+   padding: 3px;
+}
+   
+   .oldagehome-img{
+      display: none;
+   }
+   .womenngo-img{
+      display: none;
+   }
+   .face-icon{
+      display: none;
+   }
+   .insta-icon{
+      display: none;
+   }
+   .twitter-icon{
+      display: none;
+   }
+   .address{
+      display: none;
+   }
+   .ourservices-text{
+      display: none;
+   }
+   .aboutus-text{
+      display: none;
+   }
+   .heading5{
+     display: none;
+   }
+   .heading6{
+      display: none;
+   }
+   .heading7{
+      display:none
+   }
+   .box7:hover{
+      display:none
+   }
+   .ourteam-cards-container {
+      margin-left: 10px;
+      margin-right: 10px;
+      padding: 10px;
+      margin-top: 400px;
+   }
+   .ourteam-card {
+      width: 400px;
+      margin-top: 50px;
+      margin-left: 24px;
+   }
+   .ourteam-image {
+      left: 50%;
+      transform: translateX(-50%);
+   }
+   .contact-text{
+      font-size: 18px; /* Slightly smaller font size for better fit on small screens */
+   margin-left: 10px;
+   margin-right: 95px; /* Add margin-right to ensure proper spacing */
+   padding: 10px;
+   max-width: calc(100% - 20px); /* Adjusts to the new margins */
+   text-align: center;
+   }
+   .contact-btn{
+      margin-top: 250px; /* Adjust top margin for smaller screens */
+      margin-left: 160px; /* Reduce left margin */
+      height: 35px; /* Slightly smaller height */
+      width: 180px; /* Slightly smaller width */
+      font-size: 13px; /* Slightly smaller font size */
+      padding: 2px; /* Reduced padding */
+      position: relative; /* Change position to relative for better flow */
+
+   
+   }
+   .heading4{
+      font-size: 40px; /* Adjust font size for smaller screens */
+      margin-top: 40px; /* Reduce top margin */
+      margin-left: 20px; /* Reduce left margin */
+      text-align: center;
+      margin-right: 100px; /* Center text for smaller screens */
+   }
+   .line3{
+      display: none;
+   }
+   .card1-btn{
+      margin-left: 130px;
+   }
+   .card2-btn{
+      margin-left: 130px;
+   }
+   .card3-btn{
+      margin-left: 130px;
+   }
+   .card4-btn{
+      margin-left: 130px;
+   }
+   .card5-btn{
+      margin-left: 130px;
+   }
+   .card6-btn{
+      margin-left: 130px;
+   }
+   .card7-btn{
+      margin-left: 130px;
+   }
+   .card8-btn{
+      margin-left: 130px;
+   }
+   
+
+/* Tablets (768px to 1024px) */
+@media (min-width: 769px) and (max-width: 1024px) {
+   .heading {
+      font-size: 40px;
+      margin-left: 50%;
+      transform: translateX(-50%);
+   }
+   .logo-img {
+      margin-left: 50%;
+      transform: translateX(-50%);
+   }
+   .box {
+      padding: 30px;
+      flex-direction: column;
+      align-items: center;
+   }
+   .img1 {
+      height: auto;
+      width: 100%;
+   }
+   .text, .text2, .text3 {
+      font-size: 40px;
+      margin-left: 0;
+      text-align: center;
+   }
+   .heading2, .heading3, .heading4 {
+      font-size: 50px;
+      margin-left: 50%;
+      transform: translateX(-50%);
+      text-align: center;
+   }
+   .box2, .box3, .box4, .box5, .box6 {
+      padding: 30px;
+      margin-top: 70px;
+   }
+   .subheading1, .subheading2, .subheading3, .adoption-text1, .oldagehome-text1, .womenngo-text1,
+   .adoption-text2, .oldagehome-text2, .womenngo-text2, .adoption-text3, .oldagehome-text3, .womenngo-text3,
+   .contact-text, .about-text {
+      font-size: 18px;
+      margin-left: 0;
+      text-align: center;
+   }
+   .adoption-img, .oldagehome-img, .womenngo-img {
+      margin-left: 50%;
+      transform: translateX(-50%);
+   }
+   .search-btn1, .search-btn2, .search-btn3, .donate-btn1, .donate-btn2, .donate-btn3, .about-btn {
+      margin-left: 50%;
+      transform: translateX(-50%);
+      margin-top: 15px;
+   }
+   .ourteam-cards-container {
+      margin-left: 20px;
+      margin-right: 20px;
+      padding: 20px;
+   }
+   .ourteam-card {
+      width: 48%;
+      margin-top: 30px;
+   }
+   .ourteam-image {
+      left: 50%;
+      transform: translateX(-50%);
+   }
+}}
