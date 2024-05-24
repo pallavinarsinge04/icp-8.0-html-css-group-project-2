@@ -16,11 +16,13 @@
 }
 
 .heading {
-    color: gray;
+    color: white;
     margin-top: 100px;
     text-align: center;
-    background-color: #fff;
-    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    background-color: #0059b3;
+    border-radius: 10px;
+    padding: 2px 20px;
+    box-shadow: rgb(54, 65, 77) 0px 20px 30px -10px;
 }
 
 .content-heading {
@@ -91,4 +93,215 @@
 .ourteam-members-name {
     text-align: center;
     color: black;
+}
+
+.thank-you {
+    width: 100%;
+}
+
+.back-btn {
+    position: fixed;
+    left: 20px;
+    bottom: 20px;
+}
+
+
+
+.form {
+    background-image: url("./../images/home-images/background-image.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+
+    padding: 20px;
+    color: white;
+
+}
+
+
+
+
+
+/* Media queries */
+
+/* Small devices (phones, less than 600px) */
+@media screen and (max-width: 599px) {
+    .container {
+        margin: 20px;
+    }
+
+    .heading {
+        margin-top: 50px;
+        padding: 5px 10px;
+    }
+
+    .content-heading {
+        margin-top: 100px;
+    }
+
+    .content {
+        font-size: 18px;
+    }
+
+    .vision-mission {
+        flex-direction: column;
+    }
+
+    .vision-mission-cards {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .ourteam-card {
+        width: 90%;
+        margin-top: 20px;
+    }
+}
+
+
+
+
+/* Tablet Devices (600px to 768px) */
+@media screen and (min-width: 600px) and (max-width: 768px) {
+    .container {
+        margin: 40px;
+    }
+
+    .heading {
+        margin-top: 75px;
+        padding: 5px 15px;
+    }
+
+    .content-heading {
+        margin-top: 125px;
+    }
+
+    .content {
+        font-size: 18px;
+    }
+
+    .vision-mission {
+        flex-direction: column;
+    }
+
+    .vision-mission-cards {
+        width: 80%;
+        margin-bottom: 20px;
+    }
+
+    .ourteam-card {
+        width: 45%;
+        margin-top: 50px;
+    }
+}
+
+
+
+
+/* Large Tablets and Desktops (769px to 992px) */
+@media screen and (min-width: 769px) and (max-width: 992px) {
+    .container {
+        margin: 60px;
+    }
+
+    .heading {
+        margin-top: 90px;
+        padding: 5px 20px;
+    }
+
+    .content-heading {
+        margin-top: 140px;
+    }
+
+    .content {
+        font-size: 18px;
+    }
+
+    .vision-mission {
+        flex-direction: row;
+    }
+
+    .vision-mission-cards {
+        width: 40%;
+        margin-bottom: 30px;
+    }
+
+    .ourteam-card {
+        width: 225px;
+        margin-top: 150px;
+    }
+}
+
+
+
+
+/* Desktop Devices (993px to 1200px) */
+@media screen and (min-width: 993px) and (max-width: 1200px) {
+    .container {
+        margin: 80px;
+    }
+
+    .heading {
+        margin-top: 100px;
+        padding: 2px 20px;
+    }
+
+    .content-heading {
+        margin-top: 150px;
+    }
+
+    .content {
+        font-size: 20px;
+    }
+
+    .vision-mission {
+        flex-direction: row;
+    }
+
+    .vision-mission-cards {
+        width: 40%;
+        margin-bottom: 30px;
+    }
+
+    .ourteam-card {
+        width: 225px;
+        margin-top: 150px;
+    }
+}
+
+
+
+
+/* Larger Desktops (1201px and up) */
+@media screen and (min-width: 1201px) {
+    .container {
+        margin: 100px 200px;
+    }
+
+    .heading {
+        margin-top: 120px;
+        padding: 2px 30px;
+    }
+
+    .content-heading {
+        margin-top: 180px;
+    }
+
+    .content {
+        font-size: 22px;
+    }
+
+    .vision-mission {
+        flex-direction: row;
+    }
+
+    .vision-mission-cards {
+        width: 40%;
+        margin-bottom: 30px;
+    }
+
+    .ourteam-card {
+        width: 250px;
+        margin-top: 180px;
+    }
 }
