@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Bilbo+Swash+Caps&family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
 body {
     font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
+    background-color: #ccffff;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -11,6 +11,10 @@ body {
     padding: 20px;
     flex-wrap: wrap;
    
+}
+h1
+{
+    text-align: center;
 }
 
 .cards-container {
@@ -78,6 +82,7 @@ button:hover {
     border-radius: 12px;
     color: rgb(244, 248, 243);
 }
+
 @media (max-width:600px)
 {
     .cards-container {
