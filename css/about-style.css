@@ -121,8 +121,39 @@
 
     padding: 20px;
     color: white;
+    border-radius: 10px;
 
 }
+
+
+.label{
+    width: 50%;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+
+.sex{
+    padding: 5px 10px;
+    border-radius: 5px;
+    width: 200px;
+}
+
+
+.button{
+    padding: 10px 30px;
+    border-radius: 50px;
+    margin-top: 30px;
+    margin-right: 30px;
+    font-weight: bold;
+}
+
+
+.button:hover{
+    transform: scale(1.1);
+    color: #0059b3;
+}   
 
 
 
@@ -160,7 +191,12 @@
 
     .ourteam-card {
         width: 90%;
-        margin-top: 20px;
+        margin-top: 250px;
+    }
+
+    .ourteam-image{
+        position: relative;
+        left: 110px;
     }
 }
 
