@@ -85,3 +85,58 @@ section {
 .events ul li:hover .time {
     background: #e91e63;
 }
+
+.events ul li .time h2 {
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    font-size: 60px;
+    line-height: 30px;
+}
+
+.events ul li .time h2 span {
+    font-size: 30px;
+}
+
+.events ul li .details {
+    padding: 20px;
+    background: #fff;
+    box-sizing: border-box;
+    width: 70%;
+    height: 100%;
+    float: left;
+}
+
+.events ul li .details h3 {
+    position: relative;
+    margin: 0;
+    padding: 0;
+    font-size: 22px;
+}
+
+.events ul li .details p {
+    position: relative;
+    margin: 10px 0 0;
+    padding: 0;
+    font-size: 16px;
+}
+
+.events ul li .details a {
+    display: inline-block;
+    text-decoration: none;
+    padding: 10px 15px;
+    border: 1.5px solid #262626;
+    margin-top: 8px;
+    font-size: 18px;
+    transition: .5s;
+}
+
+.events ul li .details a:hover {
+    background: #e91e63;
+    color: #fff;
+    border-color: #e91e63;
+}
